@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import './plugins/fontawesome'
+import VueMeta from 'vue-meta'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import AppButton from './components/AppButton'
 
-Vue.component('AppButton', AppButton)
+Vue.use(VueMeta)
 
 Vue.config.productionTip = false
 

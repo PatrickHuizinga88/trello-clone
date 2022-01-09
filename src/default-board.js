@@ -4,45 +4,45 @@ export default {
   name: 'workshop',
   columns: [
     {
-      name: 'todo',
+      name: 'To Do',
       tasks: [
         {
           description: '',
-          name: 'first task',
+          name: 'First task',
           id: uuid(),
           userAssigned: null
         },
         {
           description: '',
-          name: 'second task',
+          name: 'Second task',
           id: uuid(),
           userAssigned: null
         },
         {
           description: 'This is a description',
-          name: 'and third',
+          name: 'Third task',
           id: uuid(),
           userAssigned: null
         }
       ]
     },
     {
-      name: 'in-progress',
+      name: 'In progress',
       tasks: [
         {
           description: '',
-          name: 'first task',
+          name: 'First task',
           id: uuid(),
           userAssigned: null
         }
       ]
     },
     {
-      name: 'done',
+      name: 'Done',
       tasks: [
         {
           description: '',
-          name: 'first task',
+          name: 'First task',
           id: uuid(),
           userAssigned: null
         }

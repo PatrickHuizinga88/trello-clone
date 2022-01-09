@@ -25,7 +25,7 @@
         <input
           type="text"
           class="block p-2 w-full bg-transparent"
-          placeholder="+ Enter new task"
+          placeholder="+ Add a task"
           @keyup.enter="createTask($event, column.tasks)"
         />
       </div>
@@ -62,8 +62,5 @@ export default {
 </script>
 
 <style scoped>
-.column {
-  @apply bg-grey-light p-2 mr-4 text-left shadow rounded;
-  min-width: 350px;
-}
+
 </style>

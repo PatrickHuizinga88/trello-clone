@@ -4,6 +4,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  metaInfo: {
+    title: 'Trello Clone'
+  }
+}
+</script>
+
 <style>
 @import 'assets/styles/tailwind.postcss';
 
